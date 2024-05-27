@@ -1,3 +1,10 @@
-[gd_scene format=3 uid="uid://cgii65vumfita"]
+[gd_scene load_steps=2 format=3 uid="uid://cgii65vumfita"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_0abjp"]
 
 [node name="ChantingInterface" type="Node2D"]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="."]
+position = Vector2(0, 2.38419e-06)
+scale = Vector2(450, 450)
+mesh = SubResource("SphereMesh_0abjp")
